@@ -277,7 +277,7 @@ project(':openjdksrc') {
     task sourceDistributionTarball(type: Tar) {
         description 'Assemble source files required for building and distributing Corretto.'
         compression Compression.GZIP
-        archiveName sourceTar
+        archiveFileName.set(sourceTar)
         from fileTree(rootDir) {
             include 'LICENSE',
                     'ADDITIONAL_LICENSE_INFO',
