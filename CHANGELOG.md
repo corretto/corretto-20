@@ -22,7 +22,7 @@ The following issues are addressed in 20.0.1.9.1:
 
 | Issue Name            | Platform | Description                                 | Link                                                                   |
 |-----------------------|----------|---------------------------------------------|------------------------------------------------------------------------|
-| Import jdk-20.0.1+9       | All      | Updates Corretto baseline to OpenJDK 20+36  | [jdk-20.0.1.9+1](https://github.com/openjdk/jdk20/releases/tag/jdk-20.0.1+9) |
+| Import jdk-20.0.1+9   | All      | Updates Corretto baseline to OpenJDK 20.0.1+9  | [jdk-20.0.1.9+1](https://github.com/openjdk/jdk20u/releases/tag/jdk-20.0.1+9) |
 | 8305113: (tz) Update Timezone Data to 2023c | All      | Update Timezone Data to 2023c | [#6](https://github.com/corretto/corretto-20/pull/6) |
 | Update amazon cacerts | All      | Update amazon cacerts file from amazonlinux | [#5](https://github.com/corretto/corretto-20/pull/5) [#7](https://github.com/corretto/corretto-20/pull/7) [#8](https://github.com/corretto/corretto-20/pull/8) |
 
