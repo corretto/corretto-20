@@ -2,6 +2,40 @@
 
 The following sections describe the changes for each release of Amazon Corretto 20.
 
+## Corretto version: 20.0.2.9.1
+Release Date: July 18, 2023
+
+**Target Platforms**
+
++ RPM-based Linux using glibc 2.12 or later, x86_64
++ Debian-based Linux using glibc 2.12 or later, x86_64
++ RPM-based Linux using glibc 2.17 or later, aarch64
++ Debian-based Linux using glibc 2.17 or later, aarch64
++ Alpine-based Linux, x86_64
++ Alpine-based Linux, aarch64
++ Windows 10 or later, x86_64
++ macos 11.0 and later, x86_64
++ macos 11.0 and later, aarch64
+
+
+The following issues are addressed in 20.0.2.9.1:
+
+| Issue Name            | Platform | Description                                 | Link                                                                   |
+|-----------------------|----------|---------------------------------------------|------------------------------------------------------------------------|
+| Import jdk-20.0.2+9   | All      | Updates Corretto baseline to OpenJDK 20.0.2+9  | [jdk-20.0.2+9](https://github.com/openjdk/jdk20u/releases/tag/jdk-20.0.2+9) |
+
+The following CVEs are addressed in 20.0.2.9.1:
+
+| CVE            | CVSS | Component                   |
+|----------------|------|-----------------------------|
+| CVE-2023-22041 | 5.1  | hotspot/compiler |
+| CVE-2023-25193 | 3.7  | client-libs/2d |
+| CVE-2023-22044 | 3.7  | hotspot/compiler |
+| CVE-2023-22045 | 3.7  | hotspot/compiler |
+| CVE-2023-22049 | 3.7  | core-libs/java.io |
+| CVE-2023-22036 | 3.7  | core-libs/java.util |
+| CVE-2023-22006 | 3.1  | core-libs/java.net |
+
 ## Corretto version: 20.0.1.9.1
 Release Date: April 18, 2023
 
