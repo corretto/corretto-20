@@ -2,6 +2,28 @@
 
 The following sections describe the changes for each release of Amazon Corretto 20.
 
+## Corretto version: 20.0.2.10.1
+Release Date: August 22, 2023
+
+**Target Platforms**
+
++ RPM-based Linux using glibc 2.12 or later, x86_64
++ Debian-based Linux using glibc 2.12 or later, x86_64
++ RPM-based Linux using glibc 2.17 or later, aarch64
++ Debian-based Linux using glibc 2.17 or later, aarch64
++ Alpine-based Linux, x86_64
++ Alpine-based Linux, aarch64
++ Windows 10 or later, x86_64
++ macos 11.0 and later, x86_64
++ macos 11.0 and later, aarch64
+
+
+The following issues are addressed in 20.0.2.10.1:
+
+|                             Issue Name                            | Platform |                                    Description                                     |                            Link                            |
+|-------------------------------------------------------------------|----------|------------------------------------------------------------------------------------|------------------------------------------------------------|
+| 8313765: Invalid CEN header (invalid zip64 extra data field size) | All      | Fix ZipException that may be encountered when opening select APK, ZIP or JAR files | [JDK-8313765](https://bugs.openjdk.org/browse/JDK-8313765) |
+
 ## Corretto version: 20.0.2.9.1
 Release Date: July 18, 2023
 
