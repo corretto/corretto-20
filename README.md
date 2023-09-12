@@ -9,6 +9,8 @@ on operating systems such as Linux, Windows, and macOS.
 This repository is used to track [OpenJDK 20u](https://github.com/openjdk/jdk20u).
 Please look at the branches section for more information on Feature Releases.
 
+The latest binary Corretto 20 release builds can be downloaded from https://github.com/corretto/corretto-20/releases.
+
 Documentation is available at [https://docs.aws.amazon.com/corretto](https://docs.aws.amazon.com/corretto).
 
 ### Licenses and Trademarks
